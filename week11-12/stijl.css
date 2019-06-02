@@ -1,0 +1,84 @@
+:root {
+	font-size: 150%;
+	font-family: avenir book, sans-serif;
+}
+body {
+      background-color: #eee8eb;}
+
+.photos {
+      width: 700px;
+      height: auto;
+      margin: 2rem auto;}
+
+.text {
+  color: black;
+  background-color: white;
+  margin-left: 2rem;
+}
+
+img {
+      border: 1rem solid lightgrey;
+      width: 30rem;
+      margin: 6rem;
+      image-orientation: center;
+    }
+
+main {
+  margin: 10rem;
+  width: 20rem;
+  border: 1rem solid lightgrey;
+  background-color: white;
+}
+h2 {
+  font-style: oblique;
+  font-size: 5rem;
+}
+
+h1 {
+  background-color: white;
+  height: 2rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+iframe {
+  margin: 2rem;
+  margin-left: 17rem;
+}
+
+  @supports (grid-area: auto) {
+  	@media (min-width: 0rem) {
+      p {
+        opacity: 0%;
+      }
+      img {
+            width: 200px;
+            height: auto;
+            margin: 2rem auto;}
+  	}
+  	@media (min-width: 40rem) {
+      p {
+        opacity: 0%;
+      }
+      img {
+            width: 400px;
+            height: auto;
+            margin: 2rem auto;}
+  	}
+  	@media (min-width: 60rem) {
+      p {
+        opacity: 0%;
+      }
+      img {
+            width: 500px;
+            height: auto;
+            margin: 2rem auto;}
+  	}
+  	@media (min-width: 80rem) {
+      img {
+            width: 600px;
+            height: auto;
+            margin: 2rem auto;}
+      p {
+        opacity: 100%
+        }
+  	}
